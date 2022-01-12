@@ -359,7 +359,7 @@ h3.my-profession
     font-family: serif;
     letter-spacing: 1.1px;
     color: var(--text-black-700);
-    text-align: justify;
+    text-align: left;
 }
 .home .home-img
 {
@@ -428,7 +428,7 @@ h3.my-profession
     font-family: serif;
     line-height: 25px;
     letter-spacing: 1.1px;
-    text-align: justify;
+    text-align: left;
     color: var(--text-black-700);
 }
 .about .about-content .personal-info
@@ -1045,6 +1045,7 @@ h3.my-profession
 .testiBR{
     width: 75%;
     align-self: center;
+    font-family: monospace;
 }
 
 blockquote{
