@@ -181,8 +181,6 @@ ul
     top: 50px;
     font-size: 30px;
     text-transform: capitalize;
-    background: var(--bg-black-50);
-    border-radius: 10px;
 }
 .aside .logo a
 {
