@@ -1084,6 +1084,14 @@ blockquote::before{
     margin: 5px auto;
 }
 
+.info-item p a{
+    color: skyblue;
+}
+
+.info-item p a:hover{
+    color: var(--skin-color);
+}
+
 @media only screen and (max-width: 768px){
     .testi .testi-item{
         display: block;
