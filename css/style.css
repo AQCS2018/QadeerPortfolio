@@ -64,6 +64,11 @@ ul
     opacity: 1;
     animation: slideSection 1s ease;
 }
+*
+{
+  scrollbar-width: thin;          /* "auto" or "thin" */
+  scrollbar-color: #424242 grey;
+}
 @keyframes slideSection
 {
     0%
@@ -383,8 +388,8 @@ h3.my-profession
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 20px;
-    bottom: -40px;
+    right: 15px;
+    bottom: -35px;
 }
 .home-img::before
 {
@@ -394,7 +399,7 @@ h3.my-profession
     width: 80px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
-    left: -20px;
+    left: 10px;
     top: -40px;
 }
 .logo .qL{
@@ -404,7 +409,7 @@ h3.my-profession
 {
     margin: auto;
     border-radius: 5px;
-    height: 400px;
+    height: 335px;
     background: var(--skin-color);
 }
 /* About */
