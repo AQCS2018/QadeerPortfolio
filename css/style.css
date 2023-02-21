@@ -53,6 +53,8 @@ ul
     overflow-y: auto;
     overflow-x: hidden;
     transition: all 0.3s ease;
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: #424242 grey;
 }
 .section.back-section
 {
@@ -63,11 +65,6 @@ ul
     z-index: 2;
     opacity: 1;
     animation: slideSection 1s ease;
-}
-*
-{
-  scrollbar-width: thin;          /* "auto" or "thin" */
-  scrollbar-color: #424242 grey;
 }
 @keyframes slideSection
 {
@@ -379,6 +376,7 @@ h3.my-profession
     max-width: 40%;
     text-align: center;
     position: relative;
+    align-self: center;
 }
 .home-img::after
 {
